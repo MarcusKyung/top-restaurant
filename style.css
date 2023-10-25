@@ -1,17 +1,66 @@
+/* Global Styles */
+
+:root {
+  --primary: rgb(13, 3, 43);
+  --secondary: purple;
+  --text: white;
+} 
+
+body {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+/* Home Title */
+h1 {
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Recipe Cards */
+.btn {
+  background-color: var(--primary);
+  color: var(--text);
+  outline: 2px solid purple;
+}
+
+.btn:hover {
+  background-color: purple;
+  color: var(--text);
+}
+
+.recipe-link {
+  color: white;
+}
+
+.recipe-title {
+  margin-bottom: 20px;
+}
+
 .recipe-flex-container {
   display: flex;
   flex-direction: row;
-  background: blue;
   padding: 10px;
   width: 80%;
   margin: 0 auto;
 }
 
 .flex-item {
-  background-color: lightblue;
-  outline: 2px solid red;
+  background-color: var(--primary);
+  outline: 2px solid purple;
+  border-radius: 5px;;
   padding: 20px;
   flex-grow: 1;
   text-align: center;
-  height: 150px;
 }
