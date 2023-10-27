@@ -11,6 +11,7 @@ body {
   color: var(--text);
 }
 
+/* Hompage Styling */
 .main-flex {
   display: flex;
   justify-content: center;
@@ -95,4 +96,13 @@ h1 {
   flex-grow: 1;
   text-align: center;
   margin: 5px;
+}
+
+/* Recipe Page Styling */
+.column-flex {
+  display: flex;
+}
+
+.column {
+  flex: 1
 }
