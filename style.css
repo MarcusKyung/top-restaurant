@@ -11,7 +11,7 @@ body {
   color: var(--text);
 }
 
-/* Hompage Styling */
+/* Homepage Styling */
 .main-flex {
   display: flex;
   justify-content: center;
